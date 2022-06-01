@@ -1,0 +1,39 @@
+
+@media screen and (min-width:769px) {
+
+    .contact-main-details-list{
+        
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 2rem;
+    height: fit-content;
+    padding: 1rem 0 2rem 0;
+    border-radius: 1.5rem;
+    background-color: #F5F5F5;
+    
+    & .questionanswer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 2rem;
+        font-size: 2rem;
+        // border: 1px solid;
+        & .question{
+            margin-left: 5rem;
+            width: 20rem;
+            font-size: 1.5rem;
+            // border: 1px solid;
+            text-align: left;
+            color: #434343;
+        }
+        & .answer{
+            width: 40rem;
+            font-size: 1.5rem;
+            // width: fit-content;
+            // border: 1px solid;
+            color: #2C3995;
+        }
+}
+}
+}
